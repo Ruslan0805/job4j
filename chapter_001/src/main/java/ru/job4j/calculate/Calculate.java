@@ -6,7 +6,7 @@ package ru.job4j.calculate;
  */
 public class Calculate {
 	/**
-	 * �뢮� ��ப� � ���᮫�
+	 * Вывод строки в консоль
 	 *
 	 * @param args - args
 	 */
