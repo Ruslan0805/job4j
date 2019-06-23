@@ -6,19 +6,39 @@ package ru.job4j.calculate;
  */
 public class Calculate {
 	/**
-	 * Вывод строки в консоль
-	 *
-	 * @param args - args
+	 * Method add.
+	 * @param first - first.
+	 * @param second - second.
+	 * @return first + second.
 	 */
-	public static void main(String[] args) {
-		System.out.println("Hello world");
+	public double add(double first, double second) {
+		return first + second;
 	}
 	/**
-	 * Method echo.
-	 * @param name Your name.
-	 * @return Echo plus your name.
+	 * Method subtract.
+	 * @param first - first.
+	 * @param second - second.
+	 * @return first - second.
 	 */
-	String echo(String name) {
-		return "Echo, echo, echo : " + name;
+	public double subtract(double first, double second) {
+		return first - second;
+	}
+	/**
+	 * Method div.
+	 * @param first - first.
+	 * @param second - second.
+	 * @return first / second.
+	 */
+	public double div(double first, double second) {
+		return first / second;
+	}
+	/**
+	 * Method multiple.
+	 * @param first - first.
+	 * @param second - second.
+	 * @return first * second.
+	 */
+	public double multiple(double first, double second) {
+		return first * second;
 	}
 }
