@@ -9,17 +9,16 @@ public class Counter {
 
     /**
      * Сумма простых чисел в определенном диапазоне.
-     * @param start - начальное значение.
+     *
+     * @param start  - начальное значение.
      * @param finish - конечное значение.
      * @return - сумма.
      */
     public int add(int start, int finish) {
         int sum = 0;
-        for (int i = 0; i <= 10; i++) {
+        for (int i = start; i <= finish; i++) {
             if (i % 2 == 0) {
                 sum += i;
-            } else {
-                continue;
             }
         }
         return sum;
