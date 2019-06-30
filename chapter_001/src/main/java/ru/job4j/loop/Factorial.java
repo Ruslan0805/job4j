@@ -14,7 +14,7 @@ public class Factorial {
      */
     public int calc(int n) {
         int result = 1;
-        if (n > 2) {
+        if (n < 2) {
             return result;
         }
         for (int i = n; 1 <= i; i--) {
